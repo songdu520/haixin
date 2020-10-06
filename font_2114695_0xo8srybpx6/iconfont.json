@@ -1,0 +1,51 @@
+{
+  "id": "2114695",
+  "name": "heh",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15812322",
+      "name": "喇叭",
+      "font_class": "laba",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "1330796",
+      "name": "在线咨询",
+      "font_class": "zaixianzixun",
+      "unicode": "e762",
+      "unicode_decimal": 59234
+    },
+    {
+      "icon_id": "1354909",
+      "name": "足迹",
+      "font_class": "zuji",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10043627",
+      "name": "喇叭",
+      "font_class": "xinbaniconshangchuan-",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "11799014",
+      "name": "移动端",
+      "font_class": "yidongduan",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "14112857",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    }
+  ]
+}

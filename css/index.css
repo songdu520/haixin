@@ -1,0 +1,140 @@
+@charset "UTF-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dt,
+dd,
+form,
+fieldset,
+legend,
+select,
+input,
+textarea,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px "微软雅黑";
+}
+
+i,
+em,
+b,
+strong {
+  font-style: normal;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 1188px;
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+.nav {
+  background: #000000;
+  font-size: 12px;
+}
+.nav li {
+  line-height: 36px;
+  padding: 0 12px;
+  float: left;
+}
+.nav li a {
+  color: #cccccc;
+}
+.nav li a:hover {
+  color: #ffffff;
+}
+.nav ul {
+  float: right;
+}
+.nav ul li {
+  float: left;
+  line-height: 36px;
+  padding: 0 12px;
+}
+.nav ul li a {
+  color: #cccccc;
+}
+.nav ul li a:hover {
+  color: #ffffff;
+}
+
+.nav .downland_li {
+  position: relative;
+}
+.nav .downland_li:hover .downland {
+  display: block;
+}
+.nav .downland_li .downland {
+  position: absolute;
+  width: 124px;
+  height: 142px;
+  top: 36px;
+  left: 50%;
+  text-align: center;
+  margin-left: -71px;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+.nav .downland_li .downland::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  border: 8px solid transparent;
+  border-bottom-color: white;
+  top: -15px;
+  z-index: 10;
+}
+.nav .downland_li .downland img {
+  height: 80px;
+  width: 80px;
+  margin: 20px auto 0;
+  display: block;
+}
+
+/*# sourceMappingURL=index.css.map */
